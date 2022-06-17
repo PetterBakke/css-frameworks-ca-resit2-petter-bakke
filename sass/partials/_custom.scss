@@ -1,0 +1,90 @@
+$primary-background-color: #8dbde7;
+$navbar-link-color: #81cfc2;
+$paragraph-color: #ffffffa3;
+$green-card-color: #81cfc2;
+$yellow-card-color: #efef94;
+$login-form-color: #81cfc2;
+$login-form-button-color: #333333;
+
+body {
+  background-color: $primary-background-color;
+  min-height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+navbar-nav {
+  a.nav-link {
+    color: black;
+  }
+
+  a.active {
+    color: $navbar-link-color;
+  }
+
+  a.nav-link:hover {
+    color: $navbar-link-color;
+  }
+}
+
+body.home {
+  .background-fjord {
+    background-image: url("../../img/image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  p.lorem {
+    background-color: $paragraph-color;
+  }
+
+  h1 {
+    padding: 5px;
+    color: white;
+  }
+
+  .card-header {
+    background-color: #81cfc2;
+    color: white;
+  }
+}
+
+body.products {
+  .circles {
+    .product {
+      height: 100px;
+      line-height: 100px;
+      width: 100px;
+      background-color: white;
+      text-align: center;
+    }
+
+    .green {
+      background-color: $green-card-color;
+      color: white;
+    }
+
+    .yellow {
+      background-color: $yellow-card-color;
+    }
+  }
+}
+
+body.login {
+  form {
+    margin: auto;
+
+    .bd-blue {
+      border: 2px solid $login-form-color;
+    }
+
+    .btn {
+      background-color: $login-form-button-color;
+    }
+  }
+}
