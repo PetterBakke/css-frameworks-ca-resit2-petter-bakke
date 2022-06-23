@@ -1,6 +1,7 @@
 @import "../scss/functions";
 @import "../scss/variables";
 @import "../scss/mixins";
+@import "../scss/maps";
 @import "../scss/utilities";
 
 // Layout & components
@@ -26,6 +27,9 @@
 
 // Utilities
 @import "../scss/utilities/api";
-@import "../sass/partials/custom";
-// scss-docs-end import-stack
 
+//Partials
+@import "../sass/partials/variables";
+@import "../sass/partials/layout";
+@import "../sass/partials/login";
+@import "../sass/partials/products";

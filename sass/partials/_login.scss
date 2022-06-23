@@ -1,0 +1,17 @@
+body.login {
+  form {
+    margin: auto;
+
+    .bd-blue {
+      border: 2px solid $teal-color;
+    }
+
+    .btn {
+      background-color: $login-form-button-color;
+    }
+
+    .btn:hover {
+      background-color: $teal-color;
+    }
+  }
+}

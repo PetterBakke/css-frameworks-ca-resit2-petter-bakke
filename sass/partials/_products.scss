@@ -1,0 +1,22 @@
+body.products {
+  .circles {
+
+
+    .product {
+      height: 100px;
+      line-height: 100px;
+      width: 100px;
+      background-color: white;
+      text-align: center;
+    }
+
+    .green {
+      background-color: $teal-color;
+      color: white;
+    }
+
+    .yellow {
+      background-color: $yellow-card-color;
+    }
+  }
+}

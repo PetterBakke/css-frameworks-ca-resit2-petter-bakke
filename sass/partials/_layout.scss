@@ -1,0 +1,58 @@
+body {
+  background-color: $primary-background-color;
+  min-height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
+
+  padding-bottom: 110px;
+
+}
+
+body.home {
+
+  .background-fjord {
+    background-image: url("../../img/image.png");
+    background-repeat: no-repeat;
+    background-position: 50% 60%;
+    background-size: cover;
+  }
+
+  .lorem {
+    background-color: $paragraph-color;
+  }
+
+  .specials-btn {
+    background-color: rgba(23, 23, 23, 0.6);
+  }
+
+  h1 .heading {
+    padding: 5px;
+  }
+
+  .card-header {
+    background-color: $teal-color;
+    color: white;
+  }
+}
+
+footer {
+  .social-media {
+    color: $primary-background-color;
+  }
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+
+navbar-nav {
+
+  a.active {
+    color: $teal-color;
+  }
+
+  a.nav-link:hover {
+    color: $teal-color;
+  }
+}
